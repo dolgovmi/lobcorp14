@@ -1,0 +1,9 @@
+- type: gamePreset
+  id: LCStandard
+  alias:
+  - lc-extended
+  - lc-standard
+  name: lc-standard-title
+  showInVote: true
+  description: standard-description
+  supportedMaps: LCMapPool

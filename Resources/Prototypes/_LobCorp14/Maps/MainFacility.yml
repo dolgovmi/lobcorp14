@@ -1,0 +1,13 @@
+- type: gameMap
+  id: MainFacility
+  minPlayers: 0
+  maxPlayers: 50
+  mapName: 'Facility'
+  mapPath: /Maps/_LobCorp14/MainFacility.yml
+  fallback: true
+  stations:
+    Star:
+      stationProto: LCStandardFacility
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'MainFacility'
